@@ -561,7 +561,9 @@ b {
 }
 
 #chatUI {
-    display: block !important
+    display: flex !important;
+    margin-bottom: 15%;
+    
 }
 
 .headShotChatIcon {
@@ -1458,7 +1460,9 @@ span.gray {
 #subLogoButtons>.button {
     float: left !important;
     font-size: 1vw !important;
-    height: 4.5vh
+    height: 4.5vh;
+     width: 200px;
+    border-radius: 50%;
 }
 
 #timerDisplay2 {

@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Open Sans;
+    font-family: Oswald-Regular;
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -50,10 +50,10 @@
 }
 
 * {
-    color: rgb(0,128,128);
-    font-family: Krunker !important;
+    color: aqua;
+    font-family: sans-serif;
     font-size: 1vw;
-    font-weight: 600
+    font-weight: 600;
 }
 
 input:checked+.sliderCent:before {
@@ -404,13 +404,14 @@ input[type=color] {
 }
 
 #menuClassSubtext {
-    font-size: 1vw !important;
+    font-size: 0vw !important;
     position: absolute;
-    top: 22vh
+    top: 20vh;
 }
 
 #infoHolder * {
-    font-size: 1vw !important
+    font-size: .62vw !important;
+    top: 86vh;
 }
 
 .menuSelector,
@@ -460,7 +461,7 @@ input[type=color] {
 
 #menuUsernameContainer {
     max-width: 20vw;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .weaponItem {
@@ -501,18 +502,18 @@ tr td:nth-child(2) {
     color: #ffc147;
     margin-bottom: 1vh !important;
     margin-left: 0;
-    margin-right: 5px;
+    margin-right: 54px;
     padding: 5px;
-    width: 9vw !important;
-    height: auto !important;
-    vertical-align: top;
-    border-radius: 5px;
+    width: 8vw !important;
+    height: 124px !important;
+    vertical-align: middle;
+    border-radius: 2px;
     display: inline-block;
     font-size: 1vw;
     position: relative;
-    z-index: 1;
+    z-index: -1;
     background-size: contain;
-    text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020
+    text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020;
 }
 
 b {
@@ -922,9 +923,9 @@ b {
     line-height: 1.5vw !important;
     padding: .5vw !important;
     pointer-events: all !important;
-    width: 100% !important;
+    width: 65% !important;
     opacity: 0;
-    transition-duration: .25s !important
+    transition-duration: .25s !important;
 }
 
 #claimHolder {
@@ -944,7 +945,8 @@ b {
 
 #claimImg,
 #merchImg {
-    height: 7vh
+    height: 6vh;
+    margin-top: -35px;
 }
 
 #claimTimer {
@@ -1068,7 +1070,7 @@ b {
 }
 
 .terms {
-    color: #ff4800
+    color: aqua;
 }
 
 .grey {
@@ -1100,10 +1102,10 @@ a:visited {
 }
 
 #levelContainer .progressBar {
-    height: .75vw !important;
+    height: -1.25vw !important;
     margin-left: .75vw !important;
-    margin-top: .25vw !important;
-    width: 5vw !important
+    margin-top: 0.25vw !important;
+    width: 5vw !important;
 }
 
 .progressBarInner {
@@ -1166,26 +1168,28 @@ a:visited {
 #menuClassContainer {
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     pointer-events: none;
     position: absolute;
-    right: 75%;
+    right: 45.5%;
     left: auto;
-    bottom: 41.5vh !important;
-    width: 18vw;
+    bottom: 42.5vh !important;
+    width: 9vw;
     height: 27vh;
-    top: auto !important
+    top: 51vh !important;
+    font-size: small !important;
+    text-align: center;
 }
 
 #menuItemContainer {
     display: flex !important;
     flex-direction: row !important;
-    height: 11.5vh !important;
+    height: 10.2vh !important;
     left: 0 !important;
     position: absolute !important;
     top: auto;
-    width: 100% !important
+    width: 100% !important;
 }
 
 #menuLevelIcon {
@@ -1228,9 +1232,9 @@ a:visited {
     pointer-events: auto !important;
     position: absolute !important;
     text-align: left !important;
-    transform: none !important;
+    transform: scale(.8) !important;
     width: 37.66vw !important;
-    z-index: 2 !important
+    z-index: 2 !important;
 }
 
 #extraChannelList {
@@ -1413,7 +1417,7 @@ a:visited {
 #subLogoButtons {
     position: absolute !important;
     top: auto !important;
-    bottom: 20.5vh !important;
+    bottom: 9.5vh !important;
     left: 50vw;
     right: auto !important;
     transform: translate(-50%, -50%) !important;
@@ -1426,10 +1430,10 @@ span.gray {
 }
 
 #subLogoButtons>.button {
-    float: left !important;
-    font-size: 1vw !important;
-    height: 4.5vh;
-     width: 200px;
+    float: left!important;
+    font-size: 0.6vw !important;
+    height: 3.5vh;
+    width: 90px;
     border-radius: 50%;
 }
 
@@ -1480,13 +1484,13 @@ span.gray {
     display: flex !important;
     font-size: 1vw !important;
     position: absolute !important;
-    left: 88vw !important;
+    left: 51vw !important;
     right: 0 !important;
-    top: 66vh !important;
+    top: 81vh !important;
     width: 10vw;
     height: fit-content;
-    bottom: 0 !important;
-    z-index: 9 !important
+    bottom: 0px !important;
+    z-index: 9 !important;
 }
 
 #uiBase.onMenu #spectButton span {
@@ -1640,7 +1644,7 @@ span.gray {
     position: relative !important;
     text-align: center !important;
     text-shadow: none !important;
-    transition: all .2s !important
+    transition: all .2s !important;
 }
 
 .button.lgn {
@@ -1722,24 +1726,30 @@ span.gray {
     display: flex;
     flex-direction: row !important;
     height: fit-content !important;
-    padding-left: .75vw !important;
-    padding-right: .75vw !important;
+    padding-left: 0.75vw !important;
+    padding-right: 0.75vw !important;
     padding-top: .75vh !important;
     padding-bottom: .75vh !important;
     pointer-events: auto !important;
     position: absolute !important;
-    top: 0 !important
+    /* top: 0 !important; */
+    transform: scale(0.6);
+    margin-left: -7.2%;
 }
 
 .headerBarLeft {
     border-radius: 0 0 .5vw 0 !important;
     left: 0 !important;
     height: 5vh !important;
-    padding-bottom: .5vh !important
+    padding-bottom: .5vh !important;
+    justify-content: end;
+    margin-top: -15px;
 }
 
 .headerBarRight {
-    right: -3px !important
+    right: -110px !important;
+    top: -20px !important;
+    /* position: static !important; */
 }
 
 .headerBarRight.imageButton {
@@ -1929,8 +1939,8 @@ span.gray {
     clear: both !important;
     color: rgba(200, 200, 200, 1) !important;
     font-size: 1vw !important;
-    margin-top: .75vh !important;
-    width: 100%
+    margin-top: 1.75vh !important;
+    width: 100%;
 }
 
 .skinCard {
@@ -2098,10 +2108,10 @@ span.gray {
     box-sizing: border-box !important;
     color: rgba(255, 255, 255, 1) !important;
     display: inline-block !important;
-    font-size: .85vw !important;
+    font-size: -2.15vw !important;
     margin-top: .25vw !important;
-    padding: .5vw !important;
-    width: 82% !important
+    padding: 0.5vw !important;
+    width: 69% !important;
 }
 
 .switch {
@@ -2132,12 +2142,12 @@ span.gray {
 .xpBar {
     background-color: rgba(0, 0, 0, .5) !important;
     border-radius: 1vw !important;
-    height: 1vw !important;
+    height: 1.1vw !important;
     margin-bottom: .25vw !important;
     margin-top: .25vw !important;
     padding: .25vw !important;
     position: relative !important;
-    width: 98.5% !important
+    width: 98.5% !important;
 }
 
 .xpBarB {
@@ -2148,14 +2158,14 @@ span.gray {
 
 .xpBarV {
     color: #fdfdfd !important;
-    font-size: .75vw !important;
+    font-size: 0.84vw !important;
     height: 100% !important;
     left: 0 !important;
     position: absolute !important;
     right: 0 !important;
     text-align: center !important;
     text-shadow: 0 0 .5vw #000 !important;
-    top: .25vw !important
+    top: 0.35vw !important;
 }
 
 a {
@@ -2181,7 +2191,7 @@ input:checked+.sliderSml:before {
 
 #menuKRCount,
 span.floatR {
-    font-size: 1vw !important
+    font-size: 1.5vw !important;
 }
 
 .settText {

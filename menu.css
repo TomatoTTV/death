@@ -1417,7 +1417,8 @@ a:visited {
     left: 50vw;
     right: auto !important;
     transform: translate(-50%, -50%) !important;
-    text-align: center
+    text-align: center;
+    border-radius: 50%;
 }
 
 span.gray {
@@ -1479,7 +1480,7 @@ span.gray {
     display: flex !important;
     font-size: 1vw !important;
     position: absolute !important;
-    left: 91vw !important;
+    left: 88vw !important;
     right: 0 !important;
     top: 66vh !important;
     width: 10vw;
